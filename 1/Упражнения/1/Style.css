@@ -1,0 +1,31 @@
+*{
+	padding:0;
+	margin:0;
+}
+	.menu{
+	min-width:400px;
+	max-width:1200px;
+	margin:20px auto;
+}
+	.menu ul{
+	background:blue repeat-x;
+	display:table-row;
+}
+	.menu ul li{
+	display:table-cell;
+	width:auto;
+	height:50px;
+	text-align:center;
+	vertical-align:bottom;
+}
+	.menu ul li a{
+	color:#fff;
+	font:bold 14px Verdana;
+	height:50px;
+	display:table-cell;
+	width:1400px;
+	vertical-align:middle;
+}
+	.menu ul li a:hover{
+	text-decoration:none;
+}

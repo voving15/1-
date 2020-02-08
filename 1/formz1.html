@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html>
+<head>
+	<title>Форма заказа</title>
+	<meta charset="utf-8">
+
+	<meta http-equip="Content-Type" content="text/html; charset="1251"/>
+	<meta http-equip="imagetoolbar" content="no"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function ()
+		{
+		$("a.example").fancybox({'opacity': true, 'overlayShow': false, 'transitionIn': 'elastic', 'transitionOut': 'elastic'});
+		});
+	</script>
+</head>
+<body background="img1/13.jpg"><center>
+	<div id="wrapper">
+		<center>
+			<div id="header"><center>
+				<table width="100%" border="0">
+					<tr>
+						<td width="15%">
+							<a href = "index.html"><img src="img1/4.png" width="100" height="70" /></a>
+						</td>
+						<td  align="center">
+							<font  size="15" face="Comic Sans MS">Mагазин "Бюрократ"</font>
+						</td>
+					</tr>
+				</table></center>
+			</div>
+			<font  size="3" face="Comic Sans MS">
+				<ul id="nav">
+					<li>
+						<a href="index.html" title="Вернуться на главную страницу">Главная</a>
+					</li>
+					<li>
+						<a title="Информация о компании">О нас</a>
+							<ul>
+								<li><a href="info.html">О компании</a></li>
+								<li><a href="people.html">Персонал</a></li>
+								<li><a href="doc.html">Документы</a></li>
+							</ul>
+					</li>
+					<li>
+						<a title="Что мы можем для вас сделать?">Услуги</a>
+							<ul>
+								<li><a href="servies.html">Оказываемые услуги</a></li>
+								<li><a href="prl.html">Прайс лист</a></li>
+							</ul>
+					</li>
+					<li>
+						<a title="Вас обслужат">Обслуживание</a>
+							<ul>
+								<li><a href="prl.html">Прайс лист</a></li>
+								<li><a href="formz1.html">Оформление заказа</a></li>
+							</ul>	
+					</li>
+					<li>	
+						<a title="Дополнительная информация">Для справок</a>
+							<ul>
+								<li><a href="info.html">О компании</a>
+								<li><a href="str.html">Структура сайта</a>
+								<li><a href="doc.html">Документы</a>
+							</ul>
+					</li>
+					
+				</ul>
+			</font>
+	
+			<div id="content">
+				<div id="centerContent">
+					<center><br>
+						<i><font size="6" face="Comic Sans MS">Форма заказа</font></i><br><br>
+						<form action=script.cgi method=GET>
+							<table>
+								<tr>
+									<td align="right">Фирма(Заказчик)</td>
+									<td><input type=text name="name"value=""></td>
+								</tr>
+								<tr>
+									<td align="right">Номер отдела</td>
+									<td><input type=text name="name"value=""></td>
+								</tr>
+								<tr>
+									<td align="right">ФИО:</td>
+									<td><input type=text name="name"value=""></td>
+								</tr>
+								<tr></tr>
+								<tr>
+									<td align="right">Паспортные данные:</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td align="right">Серия:</td>
+									<td><input type=text name="age"value=""></td>
+								</tr>
+								<tr>
+									<td align="right">Номер:</td>
+									<td><input type=text name="age"value=""></td>
+								</tr>
+								<tr>
+									<td align="right">Дата заказа:</td>
+									<td><input type="date" name="calendar"value="выберите дату"></td>
+								</tr>
+								<tr>
+									<td align="right">Оплата:</td>
+									<td><input name="1" type=radio value="1 отдел">Наличными
+										<input name="1" type=radio value="2 отдел">С карты
+										<input name="1" type=radio value="3 отдел">Online </td>
+								</tr>
+								<tr>
+									<td align="right">Тип товара </td>
+									<td>
+										<select name="">%
+											<option> ... </option>%
+											<option> Бумага для принтеров и копиров </option>%
+											<option> Блоки и закладки для записей </option>%
+											<option> Клей </option>%
+											<option> Лотки и накопители для бумаг </option>%
+											<option> Ножи и ножницы офисные </option>%
+											<option> Принадлежности для скрепления бумаг </option>%
+											<option> Калькулятор </option>%
+											<option> Картотеки </option>%
+											<option> Короба </option>%
+											<option> Архивы </option>%
+											<option> Ручки </option>%
+											<option> Блокноты </option>%
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td align="right">Количество</td>
+									<td><input type=text name="age"></td>
+								</tr>
+								<tr>
+									<td align="right">Требуется накладная</td>
+									<td><input name="Требуется накладная" type=checkbox value="Требуется накладная">Да
+										<input name="Требуется накладная" type=checkbox value="Требуется накладная">Нет</td>
+								</tr>
+								<tr>
+									<td align="right">Дополнительная информация:<font size="5" color="red" face="Comic Sans MS">*</font></td>
+									<td><textarea name=  тема cols=40 rows=6></textarea></td>
+								</tr>
+								<tr>
+									<td align="center"><br><input type=submit value="Оформить"></td>
+									<td align="center"><br><input type=submit value="Отменить"></td>
+								</tr>
+							</table> <br>
+							<i>Необязательное заполнение поля<font size="5" color="red" face="Comic Sans MS">*</font></i>
+						</form>
+					</center>
+				</div>
+				<div id="mainRight"><center>
+						<SCRIPT LANGUAGE="JavaScript">
+							<!-- Begin
+							monthnames = new Array(
+							"Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь");var linkcount=0;
+						function addlink(month, day, href) {
+						var entry = new Array(3);
+						entry[0] = month;
+						entry[1] = day;
+						entry[2] = href;
+						this[linkcount++] = entry;
+						}
+						Array.prototype.addlink = addlink;
+						linkdays = new Array();
+						monthdays = new Array(12);
+						monthdays[0]=31;
+						monthdays[1]=28;
+						monthdays[2]=31;
+						monthdays[3]=30;
+						monthdays[4]=31;
+						monthdays[5]=30;
+						monthdays[6]=31;
+						monthdays[7]=31;
+						monthdays[8]=30;
+						monthdays[9]=31;
+						monthdays[10]=30;
+						monthdays[11]=31;
+						todayDate=new Date();
+						thisday=todayDate.getDay();
+						thismonth=todayDate.getMonth();
+						thisdate=todayDate.getDate();
+						thisyear=todayDate.getYear();
+						thisyear = thisyear % 100;
+						thisyear = ((thisyear < 50) ? (2000 + thisyear) : (1900 + thisyear));
+						if (((thisyear % 4 == 0) 
+						&& !(thisyear % 100 == 0))
+						||(thisyear % 400 == 0)) monthdays[1]++;
+						startspaces=thisdate;
+						while (startspaces > 7) startspaces-=7;
+						startspaces = thisday - startspaces + 1;
+						if (startspaces < 0) startspaces+=7;
+						document.write("<table border=2 width='35%' bgcolor=lightgray ");
+						document.write("bordercolor=black><font color=black>");
+						document.write("<tr><td colspan=7><center><strong>" 
+						+ monthnames[thismonth] + " " + thisyear 
+						+ "</strong></center></font></td></tr>");
+						document.write("<tr>");
+						document.write("<td align=center>Пн</td>");
+						document.write("<td align=center>Вт</td>");
+						document.write("<td align=center>Ср</td>");
+						document.write("<td align=center>Чт</td>");
+						document.write("<td align=center>Пт</td>");
+						document.write("<td align=center>Сб</td>");
+						document.write("<td align=center>Вс</td>"); 
+						document.write("</tr>");
+						document.write("<tr>");
+						for (s=0;s<startspaces;s++) {
+						document.write("<td> </td>");
+						}
+						count=1;
+						while (count <= monthdays[thismonth]) {
+						for (b = startspaces;b<7;b++) {
+						linktrue=false;
+						document.write("<td align='center'>");
+						for (c=0;c<linkdays.length;c++) {
+						if (linkdays[c] != null) {
+						if ((linkdays[c][0]==thismonth + 1) && (linkdays[c][1]==count)) {
+						document.write("<a href=\"" + linkdays[c][2] + "\">");
+						linktrue=true;
+							  }
+						   }
+						}
+						if (count==thisdate) {
+						document.write("<font color='FF0000'><strong>");
+						}
+						if (count <= monthdays[thismonth]) {
+						document.write(count);
+						}
+						else {
+						document.write(" ");
+						}
+						if (count==thisdate) {
+						document.write("</strong></font>");
+						}
+						if (linktrue)
+						document.write("</a>");
+						document.write("</td>");
+						count++;
+						}
+						document.write("</tr>");
+						document.write("<tr>");
+						startspaces=0;
+						}
+						document.write("</table></p>");
+						// End -->
+						</SCRIPT><br>
+						<img src="img1/38.jpg" width="180" height="280"></center>
+				</div>
+			</div>
+			
+			<div id="contentDown">
+				<font face="Comic Sans MS" align="center">
+					Адрес: ул. Вернадского д. 28<br> 
+					Город: Миасс &nbsp; &nbsp; &nbsp; Область: Челябинская<br>
+					Телефон: +7 (931) 025-44-23 &nbsp; &nbsp; &nbsp;  E-mail: Burokrat@mail.ru <br>
+				</font>
+			</div>
+		</center>
+	</div>
+</body>
+</html>
